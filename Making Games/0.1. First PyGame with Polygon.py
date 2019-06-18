@@ -88,7 +88,7 @@ def main():
                     move_down()
                     update_points()
                     refresh_drawing()
-            pygame.display.update()
+        pygame.display.update()
 
 
 init_global_points()

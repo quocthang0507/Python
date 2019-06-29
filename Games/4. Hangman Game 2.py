@@ -52,6 +52,7 @@ def main():
                 showChars()
         if hasWon():
             print('You won!')
+            break
         if turns == 0:
             print('You lose! The secret word is \'{}\''.format(word))
 

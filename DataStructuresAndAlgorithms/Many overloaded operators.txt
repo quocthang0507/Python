@@ -1,0 +1,17 @@
+__add__(self, x) --> self + x
+__sub__(self, x) --> self - x
+__mul__(self, x) --> self * x
+__mod__(self, x) --> self % x
+__contains__(self, x) --> self contains x
+__eq__(self, x) --> self == x
+__ge__(self, x) --> self >= x
+__gt__(self, x) --> self > x
+__ne__(self, x) --> self != x
+__lt__(self, x) --> self < x
+__le__(self, x) --> self <= x
+__len__(self, x) --> len(self)
+__getitem__(self, x) --> self[x]
+__setitem__(self, i, x) --> self[i] = x
+__hash__(self) --> hash(self)
+__iter__(self) --> for i in self
+...
